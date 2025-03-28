@@ -36,7 +36,7 @@ __protobuf__ = proto.module(
 
 
 class Corpus(proto.Message):
-    r"""A ``Corpus`` is a collection of ``Document``\ s. A project can
+    r"""A ``Corpus`` is a collection of ``Document`` s. A project can
     create up to 5 corpora.
 
     Attributes:
@@ -82,8 +82,8 @@ class Corpus(proto.Message):
 
 
 class Document(proto.Message):
-    r"""A ``Document`` is a collection of ``Chunk``\ s. A ``Corpus`` can
-    have a maximum of 10,000 ``Document``\ s.
+    r"""A ``Document`` is a collection of ``Chunk`` s. A ``Corpus`` can
+    have a maximum of 10,000 ``Document`` s.
 
     Attributes:
         name (str):
